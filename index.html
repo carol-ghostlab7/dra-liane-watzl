@@ -28,7 +28,7 @@ html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-size:19px;line-height:1.6;-webkit-font-smoothing:antialiased}
 h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;color:var(--plum);letter-spacing:-.005em}
 h1{font-size:60px;line-height:1.05}
-h2{font-size:42px;line-height:1.15;margin-bottom:10px}
+h2{font-size:34px;line-height:1.2;margin-bottom:10px;max-width:42ch}
 h3{font-size:27px;line-height:1.2}
 p{max-width:64ch}
 a{color:var(--plum)}
@@ -36,7 +36,7 @@ a{color:var(--plum)}
 .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 section{padding:76px 0;border-top:1px solid var(--line)}
 section:first-of-type{border-top:0}
-.sub{color:var(--muted);font-size:19px;margin-bottom:36px;max-width:64ch}
+.sub{color:var(--muted);font-size:18px;margin-bottom:34px;max-width:58ch}
 .grid{display:grid;gap:22px}
 .c2{grid-template-columns:1fr 1fr}.c3{grid-template-columns:repeat(3,1fr)}.c4{grid-template-columns:repeat(4,1fr)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 26px}
@@ -79,8 +79,8 @@ tr:last-child td{border-bottom:0}
 .links a:hover{border-color:var(--gold)}
 .price{font:600 30px/1.2 Inter;color:var(--plum);margin:8px 0 10px}
 .foot{padding:36px 0 60px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
-@media (max-width:900px){.c3,.c4,.c2{grid-template-columns:1fr 1fr}h1{font-size:44px}h2{font-size:32px}section{padding:56px 0}.split{grid-template-columns:1fr}.portrait{width:220px}}
-@media (max-width:600px){.c3,.c4,.c2,.stats{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start;gap:24px;padding:56px 0 40px}body{font-size:18px}h1{font-size:40px}h2{font-size:30px}.sub{font-size:17px}}
+@media (max-width:900px){.c3,.c4,.c2{grid-template-columns:1fr 1fr}h1{font-size:44px}h2{font-size:29px}section{padding:56px 0}.split{grid-template-columns:1fr}.portrait{width:220px}}
+@media (max-width:600px){.c3,.c4,.c2,.stats{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start;gap:24px;padding:56px 0 40px}body{font-size:18px}h1{font-size:40px}h2{font-size:26px}.sub{font-size:17px}}
 </style>
 </head>
 <body>
@@ -231,7 +231,7 @@ tr:last-child td{border-bottom:0}
     <div class="card phase"><div class="k">Semanas 4 a 8</div><h3>Teste</h3><ul style="margin-top:6px"><li>Google para quem já procura "harmonização facial Niterói"</li><li>Instagram com dois ou três temas, verba pequena</li><li>Descobrir quanto custa cada conversa e cada avaliação</li></ul></div>
     <div class="card phase"><div class="k">Semanas 9 a 12</div><h3>Escala</h3><ul style="margin-top:6px"><li>Mais verba no canal e no tema que trouxeram avaliação</li><li>Novos vídeos a partir do que funcionou</li><li>Relatório mensal com números reais</li></ul></div>
   </div>
-  <p class="cap" style="margin-top:22px;max-width:none;font-size:16px">O Google alcança quem já digitou o que procura: costuma trazer a paciente mais decidida. O Instagram alcança quem ainda não está procurando, mas para no vídeo. Os dois juntos equilibram volume e qualidade</p>
+  <p class="cap" style="margin-top:22px;max-width:none;font-size:16px">O Google alcança quem já digitou o que procura: costuma trazer a paciente mais decidida. O Instagram alcança quem ainda não está procurando, mas para no vídeo. Os dois juntos equilibram volume e qualidade, e a verba de cada um é definida pela Ghost a partir dos resultados</p>
 </section>
 
 <section>
@@ -240,8 +240,8 @@ tr:last-child td{border-bottom:0}
   <p class="sub">A Ghost cuida da estrutura e dos anúncios, em parceria com quem já produz o seu conteúdo. Você continua sendo a voz; a gente constrói o caminho até a agenda</p>
   <div class="grid c3">
     <div class="card"><div class="k">Gestão de anúncios · mensal</div><div class="price">R$ 3.000 / mês</div><p>Instagram e Google juntos, que é o que recomendamos. Só um dos dois: R$ 2.100 / mês</p><ul style="margin-top:10px"><li>Estratégia e configuração das contas</li><li>Vídeos de anúncio alinhados com quem faz o seu conteúdo</li><li>Ajuste semanal e relatório mensal</li></ul></div>
-    <div class="card"><div class="k">Estrutura · projeto único</div><div class="price">Valor na proposta</div><p>Feito uma vez, fica com você</p><ul style="margin-top:10px"><li>Página própria no celular</li><li>WhatsApp com fluxo e medição</li><li>Ficha do Google e Instagram alinhados</li></ul></div>
-    <div class="card soft"><div class="k">Verba dos anúncios · separada</div><div class="price">Você define</div><p>Paga direto ao Instagram e ao Google, não à Ghost. Começa pequena nas primeiras semanas e cresce com os números na mesa</p></div>
+    <div class="card"><div class="k">Estrutura · o que montamos</div><div class="price">Valor a combinar</div><p>Possibilidade de permuta</p><ul style="margin-top:10px"><li>Página de captura (LP) completa, com formulário</li><li>Link da bio organizado</li><li>Pixel e tags de medição (Instagram e Google)</li><li>Medição dos leads que chegam no WhatsApp</li><li>Ficha do Google reestruturada</li><li>Bio e destaques do Instagram alinhados</li></ul></div>
+    <div class="card soft"><div class="k">Verba dos anúncios · separada</div><div class="price">R$ 1.500 por canal</div><p>R$ 3.000 / mês no início, pagos direto ao Instagram e ao Google, não à Ghost</p><ul style="margin-top:10px"><li>Nas primeiras semanas testamos os dois canais com o mesmo peso</li><li>Depois, a verba migra para o canal que trouxer mais avaliações</li></ul></div>
   </div>
   <h3 style="margin:36px 0 10px">Próximos passos</h3>
   <ul>
